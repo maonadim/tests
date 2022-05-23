@@ -8,6 +8,7 @@ import pandas as pd
 st.title("Dashboards Finance")
 st.header("oracle capital Dashboard")
 st.write("cette application nous aide à analyser les marchés")
+st.sidebar.header("Geeksforgeeks \n TrueGeeks")
 
 tickers = ('TSLA','AAPL','MSFT','FB')
 dropdown = st.multiselect('Pick your assets',
